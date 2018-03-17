@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { lg, sd } from "../../prop";
-import FormBlock from "../molecules/FormBlock";
-import TitlesBlock from "../molecules/TitlesBlock";
-import BigButton from "../atoms/BigButton";
+import FormBlock from "./FormBlock";
+import TitlesBlock from "./TitlesBlock";
+import BigButton from "./BigButton";
 const Main = styled.div`
   margin-top: calc(31vh - 41px);
   @media (max-width: ${lg}px) {

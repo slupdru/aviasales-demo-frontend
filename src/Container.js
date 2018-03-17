@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {lg, sd, xs} from "../../prop";
+import {lg, sd, xs} from "./prop";
 const Container = styled.div`
     width:${lg}px;
     margin:auto;

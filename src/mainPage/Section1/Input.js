@@ -26,14 +26,14 @@ class InputWithIcon extends React.Component {
     this.state = {
       value: ""
     };
-    this.handlesOnChange = this.handlesOnChange.bind(this);
+    this.handleOnChange = this.handleOnChange.bind(this);
   }
   componentWillMount() {
     this.setState({
       value: this.props.startValue || ""
     });
   }
-  handlesOnChange(event) {
+  handleOnChange(event) {
     this.setState({
       value: event.target.value
     });
@@ -42,7 +42,7 @@ class InputWithIcon extends React.Component {
     return (
       <div className={this.props.className}>
         <Input
-          onChange={this.handlesOnChange}
+          onChange={this.handleOnChange}
           placeholder={this.props.startHolder}
           value={this.state.value}
         />

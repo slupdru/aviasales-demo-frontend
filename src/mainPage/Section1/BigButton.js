@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {lg, sd } from "../../prop";
-import aero from "../../assets/icons/aero.svg";
+import aero from "./img/aero.svg";
 const Button = styled.button`
   width: 308px;
   height: 64px;

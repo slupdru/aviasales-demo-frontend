@@ -1,9 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../../assets/logos/logo.png'
-import {sd} from '../../prop'
+import logo from './img/logo.png'
+import {sd} from '../prop'
 
 const LogoContainer = styled.div`
+position:absolute;
+left:10px;
  display:   flex;
  align-items:center;
  flex-direction:row;

@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { lg, sd, xs } from "../../prop";
-import Input from "../atoms/Input";
-import arrowIcon from "../../assets/icons/arrow.svg"
-import calendarIcon from "../../assets/icons/calendar.svg"
+import Input from "./Input";
+import arrowIcon from "./img/arrow.svg"
+import calendarIcon from "./img/calendar.svg"
 
 const SityFromInput = Input.extend`
     width:224px;
