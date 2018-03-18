@@ -5,7 +5,8 @@ const Img =styled.div`
 width:100%;
 height:212px;
 background:url(${(props)=>props.img});
-background-size:contain;
+background-size:cover;
+background-repeat:no-repeat;
 `
 const MainContainer = styled.div`
 display:flex;
@@ -20,7 +21,8 @@ const RightBlock = styled.div`
 
 `
 const TownContainer = styled.div`
-
+display:flex;
+flex-direction:column;
 `
 const Flag = styled.img`
 border-radius:100px;
@@ -33,6 +35,10 @@ return(
         <MainContainer>
         <LeftBlock>
             <Flag src={props.flag}/>
+            <TownContainer>
+                <div className="sity">{props.sity}</div>
+                <div className="country">{props.country}</div>
+            </TownContainer>
         </LeftBlock>
         <RightBlock>пизда</RightBlock>
         </MainContainer>
