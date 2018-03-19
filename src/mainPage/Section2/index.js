@@ -3,6 +3,7 @@ import Container from "../../Container";
 import SectionContainer from "../../SectionContainer";
 import CompasBlock from "./CompasBlock";
 import SelectPanel from "./SelectPanel";
+import BetterPrice from "./BetterPrice";
 class Section2 extends React.Component {
   render() {
     return (
@@ -10,6 +11,7 @@ class Section2 extends React.Component {
         <Container>
           <CompasBlock />
           <SelectPanel />
+          <BetterPrice/>
         </Container>
       </SectionContainer>
     );

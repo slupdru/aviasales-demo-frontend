@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { lg, sd, xs } from "../../prop";
+import { sd } from "../../prop";
 import SelectCategoryCard from "./SelectCategoryCard";
 import Icon1 from "./img/Group-5.png";
 import Icon2 from "./img/Group-4.png";
@@ -14,9 +14,6 @@ justify-content:center;
 `
 
 class SelectCategoryPanel extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className={this.props.className}>
@@ -80,8 +77,12 @@ class SelectCategoryPanel extends React.Component {
 const StSelectCategoryPanel = styled(SelectCategoryPanel)`
   display: flex;
   justify-content: center;
+  margin-bottom:58px;
   @media(max-width:${sd}px){
     flex-direction:column;
+    margin-bottom:40px;
+
 }
+
 `;
 export default StSelectCategoryPanel;

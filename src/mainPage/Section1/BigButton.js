@@ -19,6 +19,7 @@ const Button = styled.button`
     height: 56px;
     margin-top:16px;
   }
+  
   &:after {
     content: "";
     width: 26px;
