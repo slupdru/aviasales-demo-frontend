@@ -44,11 +44,12 @@ class SelectPanel extends React.Component {
           handleChangeCategory={this.handleChangeCategory}
         />
       <ContainerCards>
-        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Питербург" country="РОССИЯ"/>
-        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Питербург" country="РОССИЯ"/>
-        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Питербург" country="РОССИЯ"/>
-        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Питербург" country="РОССИЯ"/>
+        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Петербург" country="РОССИЯ"/>
+        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Петербург" country="РОССИЯ"/>
+        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Петербург" country="РОССИЯ"/>
+        <SityCard flag={flag} img={sity1} price={1212} date="18 МАРТА" sity="Санкт-Петербург" country="РОССИЯ"/>
       </ContainerCards>
+
         </div>
     );
   }

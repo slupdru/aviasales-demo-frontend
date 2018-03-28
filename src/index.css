@@ -1,8 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic,cyrillic-ext');
+@font-face{
+
+  font-family: 'Roboto';
+  
+  src: url('./roboto/Roboto-Regular.ttf');
+  
+  font-weight: normal;
+  
+  font-style: normal;
+  
+  }
+  @font-face{
+
+    font-family: 'Roboto';
+    
+    src: url('./roboto/Roboto-Medium.ttf');
+    
+    font-weight: 500;
+    
+    font-style: normal;
+    
+    }
+    @font-face{
+
+      font-family: 'Roboto';
+      
+      src: url('./roboto/Roboto-Bold.ttf');
+      
+      font-weight: 700;
+      
+      font-style: normal;
+      
+      }
 * {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   box-sizing: border-box;
 }

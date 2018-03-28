@@ -4,7 +4,8 @@ import {  sd } from "../../prop";
 
 const Flag = styled.img`
 border-radius:100px;
-box-shadow:0 0 8px rgba(38, 38, 38, 0.1);
+width:46px;
+height:46px;
 margin-right:16px;
 @media(max-width:${sd}px){
     display:${props=>!props.static?'none':'inline-block'};
@@ -24,6 +25,7 @@ flex-direction:column;
         font-size:${props=>!props.static?'16px':'22px'};
         margin-bottom:${props=>!props.static?'4px':'2px'};
     }
+    
 }
 
 & .country {
@@ -34,9 +36,10 @@ flex-direction:column;
 }
 `
 function PlaceBlock(props){
+    console.log(props.static);
 return(
 <div className={props.className}>
-    <Flag src={props.flag}/>
+    <Flag static={props.static} src={props.flag}/>
     <TownContainer static={props.static}>
         <div className="sity">{props.sity}</div>
         <div className="country">{props.country}</div>
