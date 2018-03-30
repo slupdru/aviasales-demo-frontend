@@ -205,4 +205,7 @@ export default styled(BetterPrice)`
     font-weight: 500;
     margin-bottom: 60px;
   }
+  @media(max-width:${sd}px){
+      margin-bottom:40px;
+}
 `;
